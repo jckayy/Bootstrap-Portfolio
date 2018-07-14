@@ -1,0 +1,44 @@
+
+
+.portfolioTextbox {
+
+    background-color: #4aaaa5; 
+    color: white; 
+    line-height: 40px;
+    position: relative;
+    bottom: 50px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 120%;
+}
+
+
+#titlecolor {
+    background-color:#4aaaa5;
+    height: 100px;
+    line-height: 100px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+#navbarcolor {
+    background-color: white;
+}
+
+#bigcontainer {
+    background-color: whitesmoke;
+}
+
+#smallcontainer {
+
+    background-color: white;
+}
+#firstrow{
+    height: 10px;
+}
+
+div.relative{
+    position: relative;
+    Top: 30px;
+}
