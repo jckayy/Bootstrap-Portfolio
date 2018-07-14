@@ -15,8 +15,7 @@
 
 #titlecolor {
     background-color:#4aaaa5;
-    height: 100px;
-    line-height: 100px;
+    line-height: 90px;
     color: white;
     font-family: 'Times New Roman', Times, serif;
 
@@ -27,7 +26,7 @@
 }
 
 #bigcontainer {
-    background-color: whitesmoke;
+    background: url("concrete_seamless.png");
 }
 
 #smallcontainer {
@@ -38,7 +37,46 @@
     height: 10px;
 }
 
+
 div.relative{
     position: relative;
     Top: 30px;
 }
+
+nav li {
+    display: inline-block;
+  
+    /* Box-model */
+    padding-left: 15px;
+  
+    /* Positioning */
+    margin-left: 15px;
+  
+    /* Typography */
+    line-height: 18px;
+  
+    /* Visual */
+    border-left: 1px solid #efefef;
+  }
+  
+  nav a {
+    /* Typography */
+    color: #999;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    color: #666;
+  }
+  
+  nav li:first-child {
+    /* Box-model */
+    padding-left: 0;
+  
+    /* Positioning */
+    margin-left: 0;
+  
+    /* Visual */
+    border-left: 0 none;
+  }
+  
